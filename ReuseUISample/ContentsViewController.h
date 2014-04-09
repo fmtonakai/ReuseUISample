@@ -10,4 +10,9 @@
 
 @interface ContentsViewController : UIViewController
 
+@property (nonatomic) NSString *name;
+
+@property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UITextView *textView;
+
 @end
