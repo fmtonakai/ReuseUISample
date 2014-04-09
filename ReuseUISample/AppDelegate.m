@@ -13,6 +13,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UITabBarController *tabVC = (UITabBarController *)self.window.rootViewController;
+    NSMutableArray *vcs = @[].mutableCopy;
+    for (NSInteger i = 0; i < 4; ++i) {
+        UIViewController *vc = [tabVC.storyboard instantiateViewControllerWithIdentifier:@"contents"];
+        [vcs addObject:vc];
+    }
+    tabVC.viewControllers = vcs;
     return YES;
 }
 							

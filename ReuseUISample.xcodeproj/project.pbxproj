@@ -24,6 +24,7 @@
 		5E807CAC18F40E12006C04BB /* ReuseUISampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E807CAB18F40E12006C04BB /* ReuseUISampleTests.m */; };
 		5E807CB718F40FB7006C04BB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E807CB618F40FB7006C04BB /* ThirdViewController.m */; };
 		5E807CBA18F41105006C04BB /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E807CB918F41105006C04BB /* FourthViewController.m */; };
+		DAC06B8918F4CABB00C8A9BF /* ContentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC06B8818F4CABB00C8A9BF /* ContentsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		5E807CB618F40FB7006C04BB /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		5E807CB818F41105006C04BB /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
 		5E807CB918F41105006C04BB /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		DAC06B8718F4CABB00C8A9BF /* ContentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentsViewController.h; sourceTree = "<group>"; };
+		DAC06B8818F4CABB00C8A9BF /* ContentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				5E807CB618F40FB7006C04BB /* ThirdViewController.m */,
 				5E807CB818F41105006C04BB /* FourthViewController.h */,
 				5E807CB918F41105006C04BB /* FourthViewController.m */,
+				DAC06B8718F4CABB00C8A9BF /* ContentsViewController.h */,
+				DAC06B8818F4CABB00C8A9BF /* ContentsViewController.m */,
 				5E807C9818F40E12006C04BB /* Images.xcassets */,
 				5E807C8418F40E12006C04BB /* Supporting Files */,
 			);
@@ -264,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC06B8918F4CABB00C8A9BF /* ContentsViewController.m in Sources */,
 				5E807CBA18F41105006C04BB /* FourthViewController.m in Sources */,
 				5E807C9718F40E12006C04BB /* SecondViewController.m in Sources */,
 				5E807CB718F40FB7006C04BB /* ThirdViewController.m in Sources */,
@@ -474,6 +480,7 @@
 				5E807CB118F40E12006C04BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E807CB218F40E12006C04BB /* Build configuration list for PBXNativeTarget "ReuseUISampleTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +489,7 @@
 				5E807CB418F40E12006C04BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
